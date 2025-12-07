@@ -1,0 +1,50 @@
+primary_name: "Pei Wenqi"
+secondary_name: ""
+navbar_name: "Pei Wenqi"
+
+positions:
+- name: HKU EEE MPhil
+
+email: "wenqipei@foxmail.com"
+# cv_link: link-to-your-cv-file
+gscholar: smK3phoAAAAJ  # Your Google Scholar ID
+github: CedricPei
+twitter: WenqiPei 
+# wechat_qrcode: /assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+# linkedin: your-linked-in-id
+# orcid: 0000-0000-0000-0000
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    I am a MPhil student at The University of Hong Kong (HKU), supervised by <a href="https://hongyangdu.github.io/" target="_blank">Prof. Hongyang Du</a> at NICE Lab. Prior to this, I completed my Bachelor's degree at the National University of Singapore (NUS) under the supervision of <a href="https://www.comp.nus.edu.sg/~hebs/" target="_blank">Prof. Bingsheng He</a>. My research interests lie in Agentic AI, specifically Agent+Data and RAG. I am open to collaborating with people who share similar research interests.
+  </p>
+
+portrait_url: /assets/images/photos/portrait.jpg
+# portrait_caption: >-
+#   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+
+education:
+- name: The University of Hong Kong
+  logo: /assets/images/badges/HKU_red.png
+  position: Master of Philosophy
+  date: Sep. 2025 - Present
+- name: National University of Singapore
+  logo: /assets/images/badges/NUS_red.png
+  position: >- 
+    Bachelor of Computing (Honours), Minor: Economics
+  date: Aug. 2021 - Jul. 2025
+
+# experience:
+# - name: Peking University
+#   logo: /assets/images/badges/PKU_red.png
+#   position: Research Intern
+#   date: Sep. 2019 - Jul. 2021
+
+awards:
+- name: Dean's List
+  date: Sem2 2024-2025
+- name: Top Student for CS Research Methodology
+  date: Sem1 2024-2025
