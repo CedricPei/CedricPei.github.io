@@ -1,5 +1,5 @@
 ---
-title: "Feather-SQL accepted to ICLR DL4C Workshop"
-date: 2025-03-01
+title: "Feather-SQL accepted to DL4C @ ICLR & InterFeedback accepted to Bi-Align @ ICLR (Oral) 🎉"
+date: 2025-03-06
 ---
 
