@@ -1,7 +1,7 @@
 ---
 title:          "Self-Monitoring Large Language Models for Click-Through Rate Prediction"
 date:           2025-08-01
-selected:       true
+selected:       false
 pub:            "ACM TOIS"
 pub_date:       "2025"
 abstract: >-
