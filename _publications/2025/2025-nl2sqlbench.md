@@ -18,4 +18,3 @@ links:
   Paper: https://github.com/HOU-SZ/NL2SQLBench/blob/master/NL2SQLBench_Extended_Paper.pdf
   Code: https://github.com/HOU-SZ/NL2SQLBench
 ---
-

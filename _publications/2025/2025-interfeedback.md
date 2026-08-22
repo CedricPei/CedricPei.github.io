@@ -12,7 +12,7 @@ authors:
 - <strong><u>Wenqi Pei</u></strong>*
 - Yifei Tao*
 - Haiyang Mei
-- Zheng Shou
+- Mike Zheng Shou
 links:
   Paper: https://arxiv.org/abs/2502.15027
 ---

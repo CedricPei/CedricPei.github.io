@@ -99,3 +99,34 @@ div.lazy {
     font-family: Source Code Pro, monospace;
 }
 
+.visitor-map {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.visitor-map a,
+.visitor-map img {
+    display: block;
+}
+
+.visitor-map a {
+    position: relative;
+    overflow: hidden;
+}
+
+.visitor-map a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 34px;
+    height: 56px;
+    background: #fff;
+    content: "";
+    pointer-events: none;
+}
+
+.visitor-map img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}

@@ -1,16 +1,17 @@
-<footer class="footer border-top py-2 mt-5 bg-white small">
+<footer class="footer border-top py-3 mt-5 bg-white small">
     <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
-        <div class="row my-3">
-            <div class="col-6">
-                <div class="text-muted">
-                    <i>Last updated: {{ "now" | date: "%b %Y" }}</i>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="text-right text-muted">
-                    {{ site.data.display.footer_text }}
-                </div>
-            </div>
+        <div class="visitor-map my-3">
+            <a href="https://mapmyvisitors.com/web/1c7n0" title="Visitor map" target="_blank" rel="noopener noreferrer">
+                <img
+                    src="https://mapmyvisitors.com/map.png?d=CnTZjd-0w_vJ6mI8sGTMGBKvqKgCVK7ueYkXK31GZJc&cl=b9cfe0&w=400&t=n&co=ffffff&cmo=2563eb&cmn=0ea5e9&ct=64748b"
+                    alt="Map of visitor locations"
+                    width="400"
+                    height="196"
+                    loading="lazy">
+            </a>
+        </div>
+        <div class="text-center text-muted mb-2">
+            <i>Last updated: {{ "now" | date: "%b %Y" }}</i>
         </div>
     </div>
 </footer>

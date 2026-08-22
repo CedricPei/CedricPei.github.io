@@ -1,5 +1,4 @@
 ---
-title: "NL2SQLBench accepted to VLDB 2026 🎉"
+title: "NL2SQLBench accepted to VLDB 🎉"
 date: 2025-12-16
 ---
-
