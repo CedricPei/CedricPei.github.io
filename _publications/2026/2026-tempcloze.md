@@ -15,4 +15,6 @@ authors:
 - Han Chen
 - Ziyu Wang
 - Hongyang Du
+links:
+  Paper: https://arxiv.org/abs/2609.01515
 ---
