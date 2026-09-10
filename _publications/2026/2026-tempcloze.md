@@ -17,4 +17,6 @@ authors:
 - Hongyang Du
 links:
   Paper: https://arxiv.org/abs/2609.01515
+  Code: https://github.com/CedricPei/Temporal-Cloze
+  Dataset: https://huggingface.co/datasets/CedPei/TempCloze
 ---
