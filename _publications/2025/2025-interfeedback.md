@@ -2,6 +2,7 @@
 title:          "InterFeedback: Unveiling Interactive Intelligence of Large Multimodal Models with Human Feedback"
 date:           2025-06-01
 selected:       true
+tags:           [multimodal, evaluation]
 pub:            "EMNLP Finding & ICLR Bi-Align (Oral)"
 pub_date:       "2025"
 abstract: >-

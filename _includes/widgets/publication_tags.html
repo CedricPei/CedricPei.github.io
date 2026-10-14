@@ -1,0 +1,10 @@
+{% if include.tags.size > 0 %}
+<div class="publication-tags" role="group" aria-label="Research topics">
+    {% for tag_id in include.tags %}
+    {% assign tag = site.data.publication_tags[tag_id] %}
+    {% if tag %}
+    <span class="publication-tag publication-tag--{{ tag_id | escape }}">{{ tag.label | escape }}</span>
+    {% endif %}
+    {% endfor %}
+</div>
+{% endif %}

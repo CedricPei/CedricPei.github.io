@@ -2,6 +2,7 @@
 title:          "ThunderWorld: Efficient World Model Generation with Selective FP4 Refinement via Native GEMMs"
 date:           2026-10-09
 selected:       false
+tags:           [multimodal, efficient]
 pub:            "Preprint"
 pub_date:       "2026"
 cover:          /assets/images/covers/thunderworld.png

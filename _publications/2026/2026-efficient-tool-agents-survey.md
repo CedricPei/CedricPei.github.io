@@ -2,6 +2,7 @@
 title:          "How to Make Tool-Using LLM Agents Efficient? A Survey"
 date:           2026-08-06
 selected:       true
+tags:           [efficient]
 pub:            "Preprint"
 pub_date:       "2026"
 cover:          /assets/images/covers/efficient-tool-agents-survey.png

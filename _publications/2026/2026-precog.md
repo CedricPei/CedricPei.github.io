@@ -2,6 +2,7 @@
 title:          "PreCoG: Preview-Edit for Efficient Video Correction in Generation-Time"
 date:           2026-10-09
 selected:       true
+tags:           [multimodal, efficient]
 pub:            "Preprint"
 pub_date:       "2026"
 cover:          /assets/images/covers/precog.png

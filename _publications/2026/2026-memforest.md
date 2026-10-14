@@ -2,6 +2,7 @@
 title:          "MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing"
 date:           2026-05-16
 selected:       false
+tags:           [efficient]
 pub:            "Preprint"
 pub_date:       "2026"
 cover:          /assets/images/covers/memforest.png

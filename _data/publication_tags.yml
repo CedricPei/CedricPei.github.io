@@ -1,0 +1,8 @@
+data-agent:
+  label: Data Agent
+multimodal:
+  label: Multimodal
+evaluation:
+  label: Evaluation
+efficient:
+  label: Efficient

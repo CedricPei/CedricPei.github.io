@@ -2,6 +2,7 @@
 title:          "Feather-SQL: A Lightweight NL2SQL Framework with Dual-Model Collaboration Paradigm for Small Language Models"
 date:           2025-03-01
 selected:       true
+tags:           [data-agent, efficient]
 pub:            "IJCNLP-AACL Finding & ICLR DL4C"
 pub_date:       "2025"
 abstract: >-

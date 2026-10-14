@@ -2,6 +2,7 @@
 title:          "Xtra-MTP: State-Efficient Parallel Verification for Hybrid Language Models"
 date:           2026-10-09
 selected:       false
+tags:           [efficient]
 pub:            "Preprint"
 pub_date:       "2026"
 cover:          /assets/images/covers/xtra-mtp.png

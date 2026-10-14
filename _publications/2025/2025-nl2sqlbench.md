@@ -2,6 +2,7 @@
 title:          "NL2SQLBench: A Modular Benchmarking Framework for LLM-Enabled NL2SQL Solutions [Experiment, Analysis & Benchmark]"
 date:           2025-12-16
 selected:       true
+tags:           [data-agent, evaluation]
 pub:            "VLDB"
 pub_date:       "2026"
 abstract: >-
