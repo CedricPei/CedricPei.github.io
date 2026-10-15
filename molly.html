@@ -1,0 +1,58 @@
+---
+layout: default
+title: Molly
+navbar_title: Molly
+stylesheet: /assets/css/molly.css
+body_attr: 'id="molly-world"'
+hide_visitor_map: true
+---
+
+<main class="molly-page" lang="en">
+    <header class="molly-intro">
+        <div class="molly-intro-copy">
+            <p class="molly-hello">Meow! Welcome to my little world <span aria-hidden="true">♡</span></p>
+            <h1>Molly<span class="molly-title-paw" aria-hidden="true">{% include icons/paw.html %}</span></h1>
+            <p class="molly-name">You can also call me <strong lang="zh-CN">毛蛋</strong> (Máo Dàn). <span>Dad picked this nickname for me! <i>Máo</i> means “fur” and <i>dàn</i> means “egg”—so I'm his little “fluffy egg”!</span></p>
+            <div class="molly-bio">
+                <p>I'm a little Ragdoll girl, born in Singapore on September 9, 2024.</p>
+                <p>Chicken is my favorite! But my little tummy is quite the troublemaker—I get the runs far too often. Please behave, tummy! <span aria-hidden="true">🥺</span></p>
+            </div>
+        </div>
+        <figure class="molly-portrait">
+            <span class="molly-portrait-heart" aria-hidden="true">♡</span>
+            <a class="molly-portrait-link" href="{{ '/assets/images/molly/molly-close-up.jpg' | relative_url }}" data-molly-photo aria-label="View a close-up of Molly">
+                <img src="{{ '/assets/images/molly/molly-close-up.jpg' | relative_url }}" alt="A close-up of Molly's blue eyes and pink nose" width="1280" height="1707" fetchpriority="high">
+            </a>
+            <figcaption>That's me! <span aria-hidden="true">♡</span></figcaption>
+        </figure>
+    </header>
+
+    <section class="molly-album" aria-labelledby="molly-album-title">
+        <div class="molly-album-heading">
+            <h2 id="molly-album-title">{% include icons/paw.html %} My little photo album</h2>
+        </div>
+        <div class="molly-gallery">
+            {% for photo in site.data.molly %}
+            <a class="molly-photo" href="{{ photo.image | relative_url }}" data-molly-photo aria-label="View photo: {{ photo.alt | escape }}">
+                <figure>
+                    <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="{% if forloop.index <= 2 %}eager{% else %}lazy{% endif %}" decoding="async">
+                    <figcaption>{{ photo.caption }}</figcaption>
+                </figure>
+            </a>
+            {% endfor %}
+        </div>
+        <p class="molly-signoff">A little chicken, a long nap, and lots of love.<span aria-hidden="true">♡</span></p>
+    </section>
+</main>
+
+<dialog class="molly-lightbox" lang="en" aria-label="Molly's photo album">
+    <div class="molly-lightbox-toolbar">
+        <span class="molly-lightbox-count" aria-live="polite" aria-atomic="true"></span>
+        <button class="molly-lightbox-close" type="button" aria-label="Close photo viewer" autofocus>&times;</button>
+    </div>
+    <button class="molly-lightbox-prev" type="button" aria-label="Previous photo">&#8249;</button>
+    <img class="molly-lightbox-image" alt="">
+    <button class="molly-lightbox-next" type="button" aria-label="Next photo">&#8250;</button>
+</dialog>
+
+<script src="{{ '/assets/js/molly.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

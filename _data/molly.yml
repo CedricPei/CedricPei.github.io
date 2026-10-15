@@ -1,0 +1,25 @@
+- image: /assets/images/molly/molly-sitting.jpg
+  alt: Molly sitting on a wooden floor and looking up at the camera
+  caption: Sitting pretty. Is dinner ready yet?
+  width: 960
+  height: 1280
+- image: /assets/images/molly/molly-resting.jpg
+  alt: Molly resting with her front paws stretched out
+  caption: Your daily dose of good-girl energy.
+  width: 1280
+  height: 1707
+- image: /assets/images/molly/molly-on-the-table.jpg
+  alt: Molly lying on a table with her head and paw over the edge
+  caption: The best seat in the house.
+  width: 1280
+  height: 960
+- image: /assets/images/molly/molly-by-the-keyboard.jpg
+  alt: Molly resting her cheek beside a laptop keyboard
+  caption: Your keyboard? My pillow.
+  width: 1280
+  height: 1707
+- image: /assets/images/molly/molly-paws-up.jpg
+  alt: Molly lying in someone's arms with her pink paw pads facing the camera
+  caption: Tiny paws, big stretch!
+  width: 1280
+  height: 960

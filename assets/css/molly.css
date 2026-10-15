@@ -1,0 +1,472 @@
+@font-face {
+    font-family: "Molly Baloo";
+    src: url("../fonts/baloo2-molly.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+#molly-world {
+    background-color: #fff9f3 !important;
+    background-image: radial-gradient(#eeded3 0.8px, transparent 0.8px);
+    background-size: 20px 20px;
+    color: #624b46;
+}
+
+#molly-world .navbar {
+    border-bottom: 1px solid #f0dfd5;
+    background: #fffcf8 !important;
+    opacity: 1;
+}
+
+#molly-world .navbar-brand,
+#molly-world .navbar-brand:hover {
+    color: #624b46;
+}
+
+#molly-world .nav-link {
+    padding-right: 0.85rem;
+    padding-left: 0.85rem;
+    border-radius: 1rem;
+    color: #79635c;
+}
+
+#molly-world .nav-link:hover {
+    color: #a34c61;
+}
+
+#molly-world .nav-link[aria-current="page"] {
+    background: #fce5e7;
+    color: #98475c;
+    font-family: "Molly Baloo", "Lato", sans-serif;
+    font-size: 1.05rem;
+}
+
+#molly-world .navbar-toggler {
+    border-color: #e7cfc4;
+    border-radius: 0.8rem;
+    color: #79635c;
+}
+
+#molly-world .footer {
+    border-color: #f0dfd5 !important;
+    background: #fffcf8 !important;
+}
+
+.molly-page {
+    max-width: 960px;
+    margin: 1rem auto 0;
+    font-family: "Lato", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+.molly-intro {
+    display: flex;
+    align-items: center;
+    gap: 2.25rem;
+    padding: 2.5rem;
+    border: 1px solid #efdad1;
+    border-radius: 2rem;
+    background: #fffcf8;
+    box-shadow: 0 6px 0 #f3e6dc;
+}
+
+.molly-intro-copy {
+    flex: 1;
+    min-width: 0;
+}
+
+.molly-hello {
+    margin: 0 0 0.5rem;
+    color: #956252;
+    font-size: 0.875rem;
+    letter-spacing: 0.1em;
+}
+
+.molly-hello span {
+    color: #b96478;
+    font-size: 1.2rem;
+}
+
+.molly-intro h1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 0 0.5rem;
+    color: #bd6c83;
+    font-family: "Molly Baloo", "Arial Rounded MT Bold", sans-serif;
+    font-size: 6.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.025em;
+    text-shadow: 3px 4px 0 #f9e0d8;
+}
+
+.molly-title-paw {
+    display: inline-flex;
+    color: #e9b49e;
+    transform: rotate(18deg);
+}
+
+.molly-title-paw .molly-paw {
+    width: 40px;
+    height: 40px;
+}
+
+.molly-name {
+    margin: 0 0 1.15rem;
+    font-size: 0.9375rem;
+    line-height: 1.9;
+}
+
+.molly-name strong {
+    padding: 0.15rem 0.45rem;
+    border-radius: 0.5rem;
+    background: #fce5e7;
+    color: #98475c;
+}
+
+.molly-name > span {
+    color: #8a6d62;
+    font-size: 0.8125rem;
+}
+
+.molly-bio {
+    font-size: 0.9375rem;
+    line-height: 1.95;
+}
+
+.molly-bio p {
+    margin: 0 0 0.65rem;
+}
+
+.molly-bio p:last-child {
+    margin-bottom: 0;
+}
+
+.molly-portrait {
+    position: relative;
+    flex: 0 0 230px;
+    margin: 0 0.5rem 0 0;
+    padding: 0.75rem 0.75rem 0;
+    border: 1px solid #edd9d0;
+    border-radius: 1rem;
+    background: #fff;
+    box-shadow: 0 6px 16px rgba(131, 83, 65, 0.1);
+    transform: rotate(5deg);
+}
+
+.molly-portrait::before {
+    position: absolute;
+    z-index: 1;
+    top: -12px;
+    left: calc(50% - 38px);
+    width: 76px;
+    height: 26px;
+    background: rgba(235, 189, 174, 0.65);
+    transform: rotate(-9deg);
+    content: "";
+}
+
+.molly-portrait-heart {
+    position: absolute;
+    z-index: 1;
+    top: -1.5rem;
+    right: -0.75rem;
+    color: #b96478;
+    font-size: 3rem;
+    line-height: 1;
+    transform: rotate(14deg);
+}
+
+.molly-portrait-link {
+    display: block;
+    border-radius: 0.55rem;
+    cursor: zoom-in;
+}
+
+.molly-portrait img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    border-radius: 0.55rem;
+    object-fit: cover;
+    object-position: 50% 40%;
+}
+
+.molly-portrait figcaption {
+    padding: 0.8rem 0;
+    color: #956252;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.molly-album {
+    margin-top: 3rem;
+}
+
+.molly-album-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.molly-album-heading h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.molly-album-heading .molly-paw {
+    color: #bd6c83;
+    transform: rotate(-12deg);
+}
+
+.molly-gallery {
+    columns: 2;
+    column-gap: 1.25rem;
+}
+
+.molly-photo {
+    display: block;
+    margin-bottom: 1.25rem;
+    padding: 0.75rem 0.75rem 0;
+    break-inside: avoid;
+    border: 1px solid #efdad1;
+    border-radius: 1.2rem;
+    background: #fffcf8;
+    color: #795e55;
+    box-shadow: 0 4px 0 #f3e6dc;
+    cursor: zoom-in;
+    transition: box-shadow 180ms ease, transform 180ms ease;
+}
+
+.molly-photo:hover {
+    color: #98475c;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(131, 83, 65, 0.12);
+    transform: translateY(-3px);
+}
+
+.molly-photo figure {
+    margin: 0;
+}
+
+.molly-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.7rem;
+}
+
+.molly-photo figcaption {
+    padding: 1rem 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.molly-signoff {
+    margin: 2rem 0 0;
+    color: #956252;
+    font-size: 0.875rem;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.molly-signoff span {
+    margin-left: 0.4rem;
+    color: #bd6c83;
+}
+
+.molly-photo:focus-visible,
+.molly-portrait-link:focus-visible {
+    outline: 3px solid #a34c61;
+    outline-offset: 5px;
+}
+
+html.molly-viewer-open {
+    overflow: hidden;
+}
+
+.molly-lightbox {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    max-height: none;
+    margin: 0;
+    padding: 4.5rem;
+    border: 0;
+    background: rgba(53, 36, 36, 0.96);
+    color: #fff4ec;
+}
+
+.molly-lightbox[open] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.molly-lightbox::backdrop {
+    background: rgba(53, 36, 36, 0.6);
+}
+
+.molly-lightbox-image {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border: 6px solid #fff4ec;
+    border-radius: 1rem;
+}
+
+.molly-lightbox-toolbar {
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.molly-lightbox-count {
+    font-size: 0.875rem;
+    letter-spacing: 0.08em;
+}
+
+.molly-lightbox button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0 0 0.15em;
+    border: 1px solid rgba(255, 224, 226, 0.45);
+    border-radius: 50%;
+    background: rgba(189, 108, 131, 0.22);
+    color: #fff4ec;
+    font: inherit;
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.molly-lightbox button:hover {
+    background: rgba(255, 255, 255, 0.18);
+}
+
+.molly-lightbox button:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 4px;
+}
+
+.molly-lightbox-prev,
+.molly-lightbox-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.molly-lightbox-prev {
+    left: 1rem;
+}
+
+.molly-lightbox-next {
+    right: 1rem;
+}
+
+@media (max-width: 767.98px) {
+    .molly-intro {
+        gap: 1.5rem;
+        padding: 2rem 1.5rem;
+    }
+
+    .molly-portrait {
+        flex-basis: 170px;
+    }
+
+    .molly-intro h1 {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #molly-world .navbar-collapse {
+        padding-top: 0.5rem;
+    }
+
+    .molly-page {
+        margin-top: 0.25rem;
+    }
+
+    .molly-intro {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1.75rem 1.25rem;
+        border-radius: 1.5rem;
+    }
+
+    .molly-intro-copy {
+        width: 100%;
+    }
+
+    .molly-intro h1 {
+        font-size: 5.5rem;
+    }
+
+    .molly-name > span {
+        display: block;
+        margin-top: 0.3rem;
+    }
+
+    .molly-portrait {
+        flex-basis: auto;
+        width: 170px;
+        margin: 0 0 0.5rem;
+    }
+
+    .molly-album {
+        margin-top: 2.5rem;
+    }
+
+    .molly-album-heading {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .molly-gallery {
+        columns: 1;
+    }
+
+    .molly-lightbox {
+        padding: 4.5rem 0.75rem 6rem;
+    }
+
+    .molly-lightbox-prev,
+    .molly-lightbox-next {
+        top: auto;
+        bottom: 1.5rem;
+        transform: none;
+    }
+
+    .molly-lightbox-prev {
+        left: calc(50% - 56px);
+    }
+
+    .molly-lightbox-next {
+        right: calc(50% - 56px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .molly-photo {
+        transition: none;
+    }
+}

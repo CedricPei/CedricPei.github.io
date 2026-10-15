@@ -1,5 +1,6 @@
 <footer class="footer border-top py-3 mt-5 bg-white small">
     <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
+        {% unless page.hide_visitor_map %}
         <div class="visitor-map my-3">
             <a href="https://mapmyvisitors.com/web/1c7n0" title="Visitor map" target="_blank" rel="noopener noreferrer">
                 <img
@@ -10,6 +11,7 @@
                     loading="lazy">
             </a>
         </div>
+        {% endunless %}
         <div class="text-center text-muted mb-2">
             <i>Last updated: {{ "now" | date: "%b %Y" }}</i>
         </div>

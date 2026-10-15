@@ -5,3 +5,6 @@ pages:
   url: /
 - name: Publications
   url: /publications.html
+- name: Molly
+  url: /molly.html
+  icon: cat
