@@ -3,7 +3,7 @@ title:          "InterFeedback: Unveiling Interactive Intelligence of Large Mult
 date:           2025-06-01
 selected:       true
 tags:           [multimodal, evaluation]
-pub:            "EMNLP Finding & ICLR Bi-Align (Oral)"
+pub:            "EMNLP Findings & ICLR Bi-Align (Oral)"
 pub_date:       "2025"
 abstract: >-
   This work introduces InterFeedback, a novel approach to understanding and enhancing the interactive intelligence of large multimodal models through human feedback mechanisms. Our framework provides new insights into model behavior and interaction patterns.

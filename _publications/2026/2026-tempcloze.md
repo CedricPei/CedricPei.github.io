@@ -3,7 +3,7 @@ title:          "TempCloze: Can Video-LLMs Identify the Missing Middle?"
 date:           2026-08-23
 selected:       true
 tags:           [multimodal, evaluation]
-pub:            "EMNLP Finding"
+pub:            "EMNLP Findings"
 pub_date:       "2026"
 cover:          /assets/images/covers/tempcloze.png
 abstract: >-
