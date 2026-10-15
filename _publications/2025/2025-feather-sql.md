@@ -3,7 +3,7 @@ title:          "Feather-SQL: A Lightweight NL2SQL Framework with Dual-Model Col
 date:           2025-03-01
 selected:       true
 tags:           [data-agent, efficient]
-pub:            "IJCNLP-AACL Findings & ICLR DL4C"
+pub:            "IJCNLP-AACL Findings and DL4C @ ICLR"
 pub_date:       "2025"
 abstract: >-
   We present Feather-SQL, a novel framework for Natural Language to Structured Query Language (NL2SQL) that leverages dual-model collaboration paradigm specifically designed for small language models. Our approach achieves state-of-the-art (SOTA) results on the BIRD benchmark.
