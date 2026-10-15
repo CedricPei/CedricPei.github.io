@@ -1,8 +1,8 @@
 data-agent:
-  label: Data Agent
+  label: Data Agents
 multimodal:
-  label: Multimodal
+  label: Multimodal AI
 evaluation:
-  label: Evaluation
+  label: Model Evaluation
 efficient:
-  label: Efficient
+  label: Efficient AI

@@ -19,7 +19,7 @@ twitter: WenqiPei
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a MPhil student at The University of Hong Kong (HKU), supervised by <a href="https://hongyangdu.github.io/" target="_blank">Prof. Hongyang Du</a> at NICE Lab. Prior to this, I completed my Bachelor's degree at the National University of Singapore (NUS) under the supervision of <a href="https://www.comp.nus.edu.sg/~hebs/" target="_blank">Prof. Bingsheng He</a>. My research interests include Data Agent, Evaluation, Multimodal, and Efficient AI. I am open to collaborating with people who share similar research interests.
+    I am a MPhil student at The University of Hong Kong (HKU), supervised by <a href="https://hongyangdu.github.io/" target="_blank">Prof. Hongyang Du</a> at NICE Lab. Prior to this, I completed my Bachelor's degree at the National University of Singapore (NUS) under the supervision of <a href="https://www.comp.nus.edu.sg/~hebs/" target="_blank">Prof. Bingsheng He</a>. My research interests include <span class="research-interest publication-tag--data-agent">Data Agents</span>, <span class="research-interest publication-tag--evaluation">Model Evaluation</span>, <span class="research-interest publication-tag--multimodal">Multimodal AI</span>, and <span class="research-interest publication-tag--efficient">Efficient AI</span>. I am open to collaborating with people who share similar research interests.
   </p>
   <p>
     <strong>I am currently seeking PhD opportunities for Fall 2027.</strong> Please feel free to reach out if you see a potential research fit.
