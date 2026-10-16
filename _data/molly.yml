@@ -1,3 +1,13 @@
+- image: /assets/images/molly/molly-family.jpg
+  alt: Molly and her family posing together for a close-up photo
+  caption: This is Molly Family!
+  width: 1440
+  height: 1080
+- image: /assets/images/molly/molly-little-paws.jpg
+  alt: Molly resting on a dark blanket with her front paws stretched out
+  caption: Little paws, lots of love.
+  width: 1088
+  height: 1084
 - image: /assets/images/molly/molly-sitting.jpg
   alt: Molly sitting on a wooden floor and looking up at the camera
   caption: Sitting pretty. Is dinner ready yet?
