@@ -5,14 +5,14 @@
         {% for item in site.data.profile.research_experience %}
         <li class="py-2 {% unless forloop.last %}border-bottom border-gray{% endunless %}">
             <div class="d-flex flex-column flex-md-row align-items-md-baseline">
-                <div class="intern-experience-title mr-md-3">{% if item.lab %}<strong>{{ item.lab | escape }}</strong>, {{ item.name | escape }}{% else %}<strong>{{ item.name | escape }}</strong>{% endif %}</div>
+                <div class="intern-experience-title mr-md-3">{% if item.lab %}<strong>{{ item.lab | escape }}</strong>, {{ item.name | escape }}{% else %}<strong>{{ item.name | escape }}</strong>{% endif %}{% if item.location %}, {{ item.location | escape }}{% endif %}</div>
                 <div class="small ml-md-auto no-break mt-1 mt-md-0"><em>{{ item.date | escape }}</em></div>
             </div>
             {% if item.supervisor %}
             <div class="intern-experience-detail small font-italic mt-1">Supervisor: {% if item.supervisor_url %}<a class="text-reset" href="{{ item.supervisor_url | escape }}" target="_blank" rel="noopener noreferrer">{{ item.supervisor | escape }}</a>{% else %}{{ item.supervisor | escape }}{% endif %}{% if item.mentor %}, Mentor: {% if item.mentor_url %}<a class="text-reset" href="{{ item.mentor_url | escape }}" target="_blank" rel="noopener noreferrer">{{ item.mentor | escape }}</a>{% else %}{{ item.mentor | escape }}{% endif %}{% endif %}</div>
             {% endif %}
             {% if item.description %}
-            <div class="intern-experience-detail small mt-1">{{ item.description | escape }}</div>
+            <div class="intern-experience-detail small font-italic mt-1">{{ item.description | escape }}</div>
             {% endif %}
         </li>
         {% endfor %}
