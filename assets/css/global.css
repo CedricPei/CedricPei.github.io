@@ -197,6 +197,10 @@ div.lazy {
     font-weight: 700;
 }
 
+.intern-experience-detail {
+    font-size: 0.84375rem;
+}
+
 .intern-experience-detail a {
     text-decoration: underline;
     text-underline-offset: 0.12em;
