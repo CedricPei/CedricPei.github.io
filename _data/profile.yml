@@ -39,12 +39,39 @@ education:
   position: >- 
     Bachelor of Computing (Honours), Minor: Economics
   date: Aug. 2021 - Jul. 2025
+- name: Huazhong University of Science and Technology
+  logo: /assets/images/badges/HUST.png # https://vi.hust.edu.cn/imgs/jc_icon1.png
+  position: Major in Artificial Intelligence (dropped out)
+  date: Sep. 2020 - Jul. 2021
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+research_experience:
+- name: UCD
+  lab: LUKA Lab
+  position: Research Intern
+  supervisor: Muhao Chen
+  supervisor_url: https://muhaochen.github.io/
+  mentor: Tenghao Huang
+  mentor_url: https://tenghaohuang.github.io/
+  date: Jun. 2026 - Oct. 2026
+- name: HKUST (GZ)
+  lab: DIAL Lab
+  position: Visiting Researcher
+  supervisor: Yuyu Luo
+  supervisor_url: https://luoyuyu.vip/
+  date: Jul. 2025 - Oct. 2025
+- name: Activate Interactive Pte Ltd, Singapore
+  description: Government Solutions Department for Ministry of Manpower
+  date: Jan. 2024 - Jun. 2024
+- name: PolyU HK
+  lab: X AI Lab
+  position: Visiting Researcher
+  supervisor: Xiao Huang
+  date: Sep. 2023 - Jan. 2024
+- name: NUS
+  lab: HPC-AI Lab
+  position: Research Intern
+  supervisor: Yang You
+  date: Aug. 2022 - Nov. 2023
 
 awards:
 - name: Dean's List

@@ -168,6 +168,16 @@ div.lazy {
     font-family: Source Code Pro, monospace;
 }
 
+.education-school-name,
+.intern-experience-title {
+    font-size: 0.875rem;
+}
+
+.intern-experience-detail a {
+    text-decoration: underline;
+    text-underline-offset: 0.12em;
+}
+
 .visitor-map {
     max-width: 400px;
     margin: 0 auto;
