@@ -107,6 +107,10 @@ div.lazy {
     margin: 0.4rem 0 0.45rem;
 }
 
+.publication-venue {
+    color: #71508a;
+}
+
 .publication-collaboration {
     color: #4f6f8f;
 }
