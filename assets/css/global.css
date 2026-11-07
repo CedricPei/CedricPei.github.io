@@ -107,6 +107,16 @@ div.lazy {
     margin: 0.4rem 0 0.45rem;
 }
 
+.publication-collaboration {
+    color: #4f6f8f;
+}
+
+.publication-collaboration a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.12em;
+}
+
 .publication-tag {
     display: inline-flex;
     align-items: center;
