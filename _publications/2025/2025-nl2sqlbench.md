@@ -1,5 +1,5 @@
 ---
-title:          "NL2SQLBench: A Modular Benchmarking Framework for LLM-Enabled NL2SQL Solutions [Experiment, Analysis & Benchmark]"
+title:          "NL2SQLBench: A Modular Benchmarking Framework for LLM-Enabled NL2SQL Solutions"
 date:           2025-12-16
 selected:       true
 tags:           [data-agent, evaluation]
