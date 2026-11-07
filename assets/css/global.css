@@ -108,7 +108,13 @@ div.lazy {
 }
 
 .publication-venue {
-    color: #71508a;
+    color: #212529;
+    font-weight: 400;
+}
+
+.publication-venue-highlight {
+    color: #9b3347;
+    font-weight: 700;
 }
 
 .publication-collaboration {

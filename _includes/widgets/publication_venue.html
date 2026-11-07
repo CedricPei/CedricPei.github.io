@@ -1,0 +1,16 @@
+{% assign item = include.item %}
+{% assign publication_type = item.pub | default: "" | strip | downcase %}
+<p class="publication-venue mt-0 mb-0 small">
+    {{ item.pub_pre }}
+    {% if publication_type == "preprint" %}
+    <i>{{ item.pub | escape }}</i>{{ item.pub_post }} {{ item.pub_date | escape }}
+    {% else %}
+    {% assign venues = item.pub | split: " and " %}
+    {% for venue in venues %}
+    {% unless forloop.first %}<span class="publication-venue-connector">and</span>{% endunless %}
+    <i class="publication-venue-highlight">{{ venue | escape }}</i>
+    {% endfor %}
+    {{ item.pub_post }} <span class="publication-venue-highlight">{{ item.pub_date | escape }}</span>
+    {% endif %}
+    {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span>
+</p>
