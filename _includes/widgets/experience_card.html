@@ -11,9 +11,9 @@
                                 {% for item in site.data.profile.education %}
                                 <li class="media mb-1">
                                     {% if item.logo %}
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
+                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 21px;" class="mr-1 mt-1">
                                     {% else %}
-                                    <span class="mr-1 mt-1 text-center" style="width: 18px" aria-hidden="true"><i class="fas fa-university"></i></span>
+                                    <span class="mr-1 mt-1 text-center" style="width: 21px" aria-hidden="true"><i class="fas fa-university"></i></span>
                                     {% endif %}
                                     <div class="media-body">
                                         <div class="education-school-name">{{ item.name }}</div>
