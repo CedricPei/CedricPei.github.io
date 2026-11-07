@@ -3,6 +3,10 @@ title:          "Feather-SQL: A Lightweight NL2SQL Framework with Dual-Model Col
 date:           2025-03-01
 selected:       true
 tags:           [data-agent, efficient]
+collaboration:
+  prefix: with
+  name: 4Paradigm
+  url: https://www.4paradigm.com/
 pub:            "IJCNLP-AACL Findings and DL4C @ ICLR"
 pub_date:       "2025"
 abstract: >-
