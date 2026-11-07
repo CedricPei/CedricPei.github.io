@@ -183,6 +183,10 @@ div.lazy {
     font-size: 0.875rem;
 }
 
+.education-school-name {
+    font-weight: 700;
+}
+
 .intern-experience-detail a {
     text-decoration: underline;
     text-underline-offset: 0.12em;
