@@ -1,6 +1,14 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top mb-5 shadow-sm">
     <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
-        <a class="navbar-brand"><strong>{{site.data.profile.navbar_name}}</strong></a>
+        <div class="navbar-identity">
+            <a class="navbar-brand"><strong>{{site.data.profile.navbar_name}}</strong></a>
+            <button class="siu-celebration" type="button" data-siu-celebration aria-label="Play Cristiano Ronaldo's Siu celebration" title="Click for a Siu!">
+                <img class="siu-player" src="{{ '/assets/images/etc/ronaldo-siu.png' | relative_url }}" width="40" height="40" alt="" draggable="false">
+                <span class="siu-impact" aria-hidden="true"></span>
+                <span class="siu-word" aria-hidden="true">SIUU!</span>
+            </button>
+            <span class="sr-only siu-status" aria-live="polite"></span>
+        </div>
         <button class="navbar-toggler" style="font-size: 1em; padding: 0.5em;" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-map"></i> Menu
         </button>
