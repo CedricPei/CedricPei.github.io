@@ -28,6 +28,9 @@
 
                 <div class="row small">
                     <div class="col text-center">
+                        {% if site.data.profile.secondary_name != "" %}
+                        <span class="profile-name-chinese" lang="zh-Hans">{{ site.data.profile.secondary_name }}</span>
+                        {% endif %}
                         {% for position in site.data.profile.positions %}
                         {{ position.name }}<br/>
                         {% endfor %}

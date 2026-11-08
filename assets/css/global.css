@@ -1,4 +1,12 @@
 @charset "utf-8";
+@font-face {
+    font-family: "Ma Shan Zheng";
+    src: url("../fonts/ma-shan-zheng-name.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -36,6 +44,40 @@ h5 {
     border-top-right-radius: 0.8rem !important;
 }
 
+
+.profile-name {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 0.75rem;
+    row-gap: 0.25rem;
+    margin-bottom: 0;
+    line-height: 1.15;
+}
+
+.profile-name-chinese {
+    font-family: "Ma Shan Zheng", "STKaiti", "KaiTi", cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: 0.08em;
+    white-space: nowrap;
+}
+
+@media (max-width: 575.98px) {
+    .profile-card-body {
+        padding: 1.5rem !important;
+    }
+
+    .profile-name {
+        font-size: 2rem;
+        column-gap: 0.5rem;
+    }
+
+    .profile-name .profile-name-chinese {
+        font-size: 0.85em;
+    }
+}
 
 .text-profile-position {
     font-weight: 400;
@@ -195,6 +237,19 @@ div.lazy {
 
 .education-school-name {
     font-weight: 700;
+}
+
+.education-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.15rem 0.75rem;
+}
+
+.education-date {
+    margin-left: auto;
+    font-size: 0.8125rem;
+    white-space: nowrap;
 }
 
 .intern-experience-detail {
