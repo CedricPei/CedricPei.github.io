@@ -49,6 +49,7 @@ h5 {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
+    font-size: 2rem;
     column-gap: 0.75rem;
     row-gap: 0.25rem;
     margin-bottom: 0;
@@ -70,7 +71,7 @@ h5 {
     }
 
     .profile-name {
-        font-size: 2rem;
+        font-size: 1.75rem;
         column-gap: 0.5rem;
     }
 
