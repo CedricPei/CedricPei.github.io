@@ -115,6 +115,86 @@ h5 {
 
 .navbar-identity .navbar-brand {
     margin-right: 0;
+    font-family: "Dancing Script", cursive;
+    font-size: 1.625rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.united-crest-button {
+    position: relative;
+    display: inline-flex;
+    flex: 0 0 40px;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    border-radius: 0.5rem;
+    background: transparent;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.united-crest-button::after {
+    position: absolute;
+    inset: 3px;
+    border: 1px solid #ffd166;
+    border-radius: 50%;
+    opacity: 0;
+    content: "";
+    pointer-events: none;
+}
+
+.united-crest-image {
+    display: block;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    transform-origin: center;
+    pointer-events: none;
+    user-select: none;
+}
+
+.united-crest-button.is-waving .united-crest-image {
+    animation: united-sway 1.4s ease-in-out;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .united-crest-button:not(.is-spinning):hover .united-crest-image {
+        animation: united-sway 1.4s ease-in-out infinite;
+        filter: drop-shadow(0 0 4px rgba(218, 41, 28, 0.45));
+    }
+}
+
+.united-crest-button.is-spinning .united-crest-image {
+    animation: united-spin 1s cubic-bezier(0.2, 0.7, 0.25, 1);
+}
+
+.united-crest-button.is-spinning::after {
+    animation: united-glow 1s ease-out;
+}
+
+@keyframes united-sway {
+    0%, 100% { transform: rotate(0deg); }
+    20% { transform: rotate(-10deg); }
+    42% { transform: rotate(8deg); }
+    64% { transform: rotate(-5deg); }
+    82% { transform: rotate(3deg); }
+}
+
+@keyframes united-spin {
+    0% { transform: rotate(0deg) scale(1); }
+    40% { transform: rotate(-20deg) scale(0.92); }
+    80% { transform: rotate(368deg) scale(1.1); }
+    100% { transform: rotate(360deg) scale(1); }
+}
+
+@keyframes united-glow {
+    0%, 30% { opacity: 0; transform: scale(0.7); }
+    70% { opacity: 0.8; transform: scale(1.05); }
+    100% { opacity: 0; transform: scale(1.35); }
 }
 
 .siu-celebration {
@@ -134,10 +214,12 @@ h5 {
     -webkit-tap-highlight-color: transparent;
 }
 
+.united-crest-button:hover,
 .siu-celebration:hover {
     background: rgba(255, 255, 255, 0.08);
 }
 
+.united-crest-button:focus-visible,
 .siu-celebration:focus-visible {
     outline: 2px solid #ffd166;
     outline-offset: 2px;
@@ -220,10 +302,19 @@ h5 {
 }
 
 @media (prefers-reduced-motion: reduce) {
+    .united-crest-button .united-crest-image,
+    .united-crest-button:not(.is-spinning):hover .united-crest-image,
+    .united-crest-button.is-waving .united-crest-image,
+    .united-crest-button.is-spinning .united-crest-image,
+    .united-crest-button.is-spinning::after,
     .siu-celebration.is-celebrating .siu-player,
     .siu-celebration.is-celebrating .siu-word,
     .siu-celebration.is-celebrating .siu-impact {
         animation: none;
+    }
+
+    .united-crest-button.is-spinning::after {
+        opacity: 0.6;
     }
 
     .siu-celebration.is-celebrating .siu-word {

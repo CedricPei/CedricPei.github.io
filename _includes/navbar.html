@@ -1,7 +1,11 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top mb-5 shadow-sm">
     <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
         <div class="navbar-identity">
-            <a class="navbar-brand"><strong>{{site.data.profile.navbar_name}}</strong></a>
+            <button class="united-crest-button" type="button" data-united-crest aria-label="Spin the Manchester United crest" title="Click to spin the Manchester United crest">
+                <img class="united-crest-image" src="{{ '/assets/images/etc/manchester-united-crest.png' | relative_url }}" width="32" height="32" alt="" draggable="false">
+            </button>
+            <span class="sr-only united-status" aria-live="polite"></span>
+            <a class="navbar-brand" href="{{ '/' | relative_url }}">{{site.data.profile.navbar_name}}</a>
             <button class="siu-celebration" type="button" data-siu-celebration aria-label="Play Cristiano Ronaldo's Siu celebration" title="Click for a Siu!">
                 <img class="siu-player" src="{{ '/assets/images/etc/ronaldo-siu.png' | relative_url }}" width="40" height="40" alt="" draggable="false">
                 <span class="siu-impact" aria-hidden="true"></span>
