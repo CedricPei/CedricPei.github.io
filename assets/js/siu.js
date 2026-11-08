@@ -4,30 +4,34 @@
     document.querySelectorAll('[data-united-crest]').forEach(function (button) {
         var image = button.querySelector('.united-crest-image')
         var status = button.parentElement.querySelector('.united-status')
+        var resetTimer
 
-        button.addEventListener('click', function () {
+        function spin(announce) {
             if (button.classList.contains('is-spinning')) return
 
-            button.classList.remove('is-waving')
             button.classList.add('is-spinning')
-            if (status) status.textContent = 'Manchester United!'
+            if (announce && status) status.textContent = 'Manchester United!'
 
-            window.setTimeout(function () {
+            window.clearTimeout(resetTimer)
+            resetTimer = window.setTimeout(function () {
                 button.classList.remove('is-spinning')
                 if (status) status.textContent = ''
             }, reducedMotion.matches ? 650 : 1200)
+        }
+
+        button.addEventListener('click', function () {
+            spin(true)
         })
 
-        function waveWelcome() {
-            if (reducedMotion.matches || document.hidden || button.classList.contains('is-spinning')) return
-            button.classList.add('is-waving')
-            window.setTimeout(function () { button.classList.remove('is-waving') }, 1400)
+        function playWelcome() {
+            if (reducedMotion.matches || document.hidden) return
+            window.setTimeout(function () { spin(false) }, 200)
         }
 
         if (image.complete && image.naturalWidth > 0) {
-            waveWelcome()
+            playWelcome()
         } else {
-            image.addEventListener('load', waveWelcome, { once: true })
+            image.addEventListener('load', playWelcome, { once: true })
         }
     })
 

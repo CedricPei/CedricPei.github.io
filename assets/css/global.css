@@ -1,5 +1,13 @@
 @charset "utf-8";
 @font-face {
+    font-family: "Bebas Neue";
+    src: url("../fonts/bebas-neue-name.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
     font-family: "Dancing Script";
     src: url("../fonts/dancing-script-name.ttf") format("truetype");
     font-style: normal;
@@ -103,8 +111,37 @@ h5 {
     font-weight: 400;
 }
 
-.navbar {
-    opacity: 0.95;
+.football-navbar {
+    border-bottom: 1px solid rgba(227, 212, 145, 0.25);
+    background-color: #164634;
+    background-image: url("../images/etc/navbar-football-pattern.svg"), linear-gradient(115deg, #194d38, #153f31 55%, #0c3027);
+    background-position: left top, center;
+    background-size: 900px 64px, cover;
+    background-repeat: repeat-x, no-repeat;
+}
+
+.football-navbar .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.82);
+    text-shadow: 0 1px 2px rgba(5, 31, 18, 0.5);
+}
+
+.football-navbar .navbar-nav .active > .nav-link,
+.football-navbar .navbar-nav .nav-link:hover,
+.football-navbar .navbar-nav .nav-link:focus {
+    color: #fff;
+}
+
+.football-navbar .navbar-toggler {
+    border-color: rgba(237, 228, 186, 0.3);
+    background: rgba(4, 33, 24, 0.22);
+    color: rgba(255, 255, 255, 0.85);
+}
+
+@media (max-width: 575.98px) {
+    .football-navbar {
+        background-position: 129px top, center;
+        background-repeat: no-repeat, no-repeat;
+    }
 }
 
 .navbar-identity {
@@ -115,10 +152,13 @@ h5 {
 
 .navbar-identity .navbar-brand {
     margin-right: 0;
-    font-family: "Dancing Script", cursive;
-    font-size: 1.625rem;
-    font-weight: 500;
-    line-height: 1.2;
+    font-family: "Bebas Neue", "Arial Narrow", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(235, 188, 82, 0.4);
 }
 
 .united-crest-button {
@@ -155,10 +195,6 @@ h5 {
     transform-origin: center;
     pointer-events: none;
     user-select: none;
-}
-
-.united-crest-button.is-waving .united-crest-image {
-    animation: united-sway 1.4s ease-in-out;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -304,7 +340,6 @@ h5 {
 @media (prefers-reduced-motion: reduce) {
     .united-crest-button .united-crest-image,
     .united-crest-button:not(.is-spinning):hover .united-crest-image,
-    .united-crest-button.is-waving .united-crest-image,
     .united-crest-button.is-spinning .united-crest-image,
     .united-crest-button.is-spinning::after,
     .siu-celebration.is-celebrating .siu-player,

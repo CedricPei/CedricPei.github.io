@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64" viewBox="0 0 900 64" fill="none">
+  <defs>
+    <g id="football">
+      <circle r="10" fill="#f2f5ed" stroke="#f2f5ed" stroke-width="0.6"/>
+      <g fill="#153e30" stroke="#153e30" stroke-width="0.7" stroke-linejoin="round">
+        <path d="M0-4.4 4.2-1.35 2.6 3.55H-2.6L-4.2-1.35Z"/>
+        <path d="M-2.8-9.5 0-7.4 2.8-9.5M8.25-5.65 7.1-2.3 9.9-.3M8.05 5.95 4.4 6.1 3.1 9.5M-3.1 9.5-4.4 6.1-8.05 5.95M-9.9-.3-7.1-2.3-8.25-5.65"/>
+      </g>
+      <g stroke="#153e30" stroke-width="0.65">
+        <path d="M0-4.4V-7.4M4.2-1.35 7.1-2.3M2.6 3.55 4.4 6.1M-2.6 3.55-4.4 6.1M-4.2-1.35-7.1-2.3"/>
+      </g>
+    </g>
+  </defs>
+
+  <g fill="#dce9d5" opacity="0.025">
+    <path d="M0 0H64V64H0ZM128 0H192V64H128ZM256 0H320V64H256ZM384 0H448V64H384ZM512 0H576V64H512ZM640 0H704V64H640ZM768 0H832V64H768ZM896 0H900V64H896Z"/>
+  </g>
+
+  <g stroke="#e0eadf" stroke-width="0.8" opacity="0.11">
+    <rect x="16" y="8" width="868" height="48" rx="1"/>
+    <path d="M450 8V56M16 20H54V44H16M884 20H846V44H884M16 26H28V38H16M884 26H872V38H884"/>
+    <circle cx="450" cy="32" r="20"/>
+    <circle cx="450" cy="32" r="1.2" fill="#e0eadf" stroke="none"/>
+    <path d="M54 24A10 10 0 0 1 54 40M846 24A10 10 0 0 0 846 40"/>
+  </g>
+
+  <g stroke="#f1ead3" stroke-width="1" stroke-dasharray="1 5" stroke-linecap="round" opacity="0.17">
+    <path d="M24 39C40 10 54 47 71 25"/>
+    <path d="M840 44C863 54 869 14 896 20"/>
+  </g>
+
+  <g opacity="0.24" transform="translate(85 22) rotate(-16)">
+    <use href="#football"/>
+  </g>
+  <g opacity="0.2" transform="translate(820 42) rotate(18) scale(1.2)">
+    <use href="#football"/>
+  </g>
+</svg>
